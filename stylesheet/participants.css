@@ -1,0 +1,31 @@
+.container{
+  font-family: "Poppins", sans-serif;
+  color: #6b6661;
+}
+.card-title, .modal-title{
+  font-size: 30px !important;
+  font-family: "Playfair Display", sans-serif !important;
+  color: black !important;
+}
+
+ .card {
+    border: 1px solid;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+  
+  .btn:hover, .btn:focus {
+    background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    background-clip: text;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
